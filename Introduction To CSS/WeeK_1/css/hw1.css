@@ -1,0 +1,29 @@
+header {
+    color            : white;
+    background-color : #b4b4b4;
+    text-align       : center;
+
+}
+h1{
+    text-transform   : uppercase;
+
+}
+nav{
+    text-align       : left;
+    text-decoration  : underline;
+
+}
+a{
+    color            : black;
+    background-color : #b1a2c9;
+}
+.left{
+    display          : none;
+}
+.right h2{
+    color            : #0b0e7c;
+    text-transform   : uppercase;
+}
+.right{
+    background-color : #787878;
+}

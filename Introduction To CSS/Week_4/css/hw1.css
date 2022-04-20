@@ -1,0 +1,124 @@
+/*http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg*/
+
+body{
+    margin           : 2%;
+    padding          : 1%;
+}
+
+header {
+    background-color        : purple ;
+    background-image        : url('https://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg');
+    background-size         : cover;
+    background-repeat       : no-repeat;
+    overflow                : hidden;
+    width                   : 100%;
+    height                  : 200px ;
+    -webkit-background-size : cover;
+    -moz-background-size    : cover;
+    -o-background-size      : cover;
+    padding                 : 5px;
+
+}
+header h1{
+    text-align       : center;
+    color            : white;
+    text-transform   : uppercase;
+
+}
+nav a{
+    display          : inline-block ;
+    color            : black;
+    background-color : #f0f0f0;
+    border-radius    : 25px;
+    margin           : 10px;
+    text-decoration  : none ;
+    padding:         : 10%;
+    text-align       : center;
+    width            : 200px;
+
+}
+
+.active{
+    color            : blue;
+    background-color : white;
+    border-radius    : 25px;
+    margin           : 10px;
+    text-decoration  : none ;
+    padding:         : 10%;
+    text-align       : center;
+    width            : 200px;
+
+
+}
+main{
+  display          :flex ;
+}
+.left{
+
+  background-color : #ffa500;
+  padding          : 10px;
+  width: 45%;
+  height: 100vh;
+
+}
+.left img {
+    display          : block;
+    color            : #000000;
+    position:        : center;
+    width            : 85%;
+    height           : 25%;
+    margin           : 5%;
+    border           : solid  ;
+}
+.right h2{
+    color            : #0b0e7c;
+    text-transform   : uppercase;
+}
+
+table{
+    font-size        : 1.7vw;
+    width            : 85%;
+    height           : 25%;
+    margin           : 0 auto;
+}
+
+table tr:first-child{
+	background           : #3cae68;
+  -webkit-border-radius: 5px 5px 0 0;
+	border-radius        : 5px 5px 0 0;
+  opacity              : 1;
+
+}
+tr td:first-child {
+  text-align           : left;
+}
+
+tr :first-child  {
+  text-align           : left;
+}
+
+tr{
+  text-align           : center;
+}
+td:hover{
+  opacity              :1.0;
+  font-size            : 101%;
+}
+
+td{
+	width                :15px;
+	height               :35px;
+	vertical-align       :top;
+  border-radius        :2px;
+  font-color           :#000018;
+  opacity              : 0.8;
+
+
+
+}
+tr:nth-child(odd) {
+	background: #F2F2F2;
+}
+tr:nth-child(even) {
+	background: #3cc8b1;
+}
